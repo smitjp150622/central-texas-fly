@@ -5,26 +5,9 @@ import footerIcon from "../../assets/images/footer-icon.svg";
 import facebookIcon from "../../assets/images/facebook.svg";
 import instaIcon from "../../assets/images/insta.svg";
 import linkedInIcon from "../../assets/images/linkedin.svg";
+import { footerLink } from "../../content";
 
 const Footer = () => {
-  const footerLink = [
-    {
-      url: "/faq",
-      name: "FAQ",
-    },
-    {
-      url: "/privacy",
-      name: "Privacy",
-    },
-    {
-      url: "/support",
-      name: "Support",
-    },
-    {
-      url: "/contact",
-      name: "Contact",
-    },
-  ];
   return (
     <div className="footer-wrapper">
       <div className="container mx-auto">
@@ -35,9 +18,9 @@ const Footer = () => {
             </div>
             <div className="footer-link">
               <ul>
-                {footerLink.map((link, index) => {
+                {footerLink.map((link) => {
                   return (
-                    <li key={index}>
+                    <li key={link.id}>
                       <Link to={link.url}>{link.name}</Link>
                     </li>
                   );
