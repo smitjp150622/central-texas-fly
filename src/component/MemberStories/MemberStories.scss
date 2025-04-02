@@ -1,0 +1,12 @@
+.member-stories {
+    padding-block: $size-80;
+
+    &_wrapper {
+        &-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: $size-48;
+        }
+    }
+
+}

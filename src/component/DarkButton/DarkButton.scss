@@ -1,0 +1,12 @@
+.primary-button {
+    background: $brown-default;
+    color: $neutral-5;
+    font-size: $size-16;
+    font-weight: $font-weight-regular;
+    padding: $size-8 $size-12;
+    border-radius: $size-4;
+
+    &:hover {
+        background: $brown-light;
+    }
+}

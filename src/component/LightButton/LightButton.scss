@@ -1,0 +1,12 @@
+.secondary-button {
+    background: $neutral-10;
+    border: none;
+    border-radius: $size-4;
+    color: $neutral-90;
+    font-size: $size-14;
+    padding: $size-4 $size-8;
+
+    &:hover {
+        background: $neutral-5;
+    }
+}

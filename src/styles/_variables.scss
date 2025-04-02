@@ -1,0 +1,68 @@
+// Colors
+$neutral-0: #ffffff;
+$neutral-1: #fdfdfd;
+$neutral-2: #fcfcfb;
+$neutral-3: #fafafa;
+$neutral-4: #f9f9f8;
+$neutral-5: #f7f7f6;
+$neutral-10: #dfdedd;
+$neutral-20: #c6c5c3;
+$neutral-30: #aeadaa;
+$neutral-40: #969491;
+$neutral-50: #7d7b77;
+$neutral-60: #65625e;
+$neutral-70: #4d4a45;
+$neutral-80: #34312b;
+$neutral-90: #1c1812;
+$neutral-100: #000000;
+
+$tan-lighter: #f1ece1;
+$tan-light: #e4d9c3;
+$tan-default: #ddcfb4;
+$tan-dark: #b1a690;
+$tan-darker: #857c6c;
+
+$brown-lighter: #978f84;
+$brown-light: #74695b;
+$brown-default: #514432;
+$brown-dark: #31291e;
+$brown-darker: #201b14;
+
+// Sizes
+$size-1: 0.0625rem;
+$size-2: 0.125rem;
+$size-4: 0.25rem;
+$size-8: 0.5rem;
+$size-12: 0.75rem;
+$size-14: 0.875rem;
+$size-16: 1rem;
+$size-20: 1.25rem;
+$size-24: 1.5rem;
+$size-32: 2rem;
+$size-40: 2.5rem;
+$size-48: 3rem;
+$size-56: 3.5rem;
+$size-64: 4rem;
+$size-72: 4.5rem;
+$size-80: 5rem;
+$size-96: 6rem;
+
+// Typography
+$font-default: "Inter", sans-serif;
+$font-alternate: "Gluten", cursive;
+
+
+$font-weight-regular: 400;
+$font-weight-semibold: 600;
+
+$line-height-none: 1;
+$line-height-tight: 1.125;
+$line-height-default: 1.25;
+$line-height-loose: 1.5;
+
+// Breakpoints
+$breakpoint-xs: 480px;
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;

@@ -1,0 +1,39 @@
+// @use "./variables" as *;
+
+.hero-section {
+    background: $neutral-2;
+    padding-block: $size-80;
+
+    &_flex {
+        display: grid;
+        grid-template-columns: auto 400px;
+        gap: $size-24;
+    }
+
+    &_title {
+        padding-block: $size-24;
+
+        h1 {
+            font-size: $size-56;
+            font-family: $font-default;
+            font-weight: $font-weight-semibold;
+            color: $neutral-90;
+            margin-bottom: $size-16;
+            padding-right: $size-48;
+        }
+
+        p {
+            font-size: $size-20;
+            font-weight: $font-weight-regular;
+            color: $neutral-60;
+            margin-bottom: $size-16;
+        }
+    }
+
+    &_image {
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}

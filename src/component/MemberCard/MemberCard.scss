@@ -1,0 +1,15 @@
+.member-stories_card {
+    display: grid;
+    grid-template-columns: 200px auto;
+    gap: $size-24;
+
+    &-title {
+        p {
+            font-size: $size-14;
+            font-weight: $font-weight-regular;
+            color: $neutral-60;
+            margin-bottom: $size-16;
+            width: 240px;
+        }
+    }
+}

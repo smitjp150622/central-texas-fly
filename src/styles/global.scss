@@ -1,0 +1,21 @@
+@use "./variables" as *;
+
+body {
+    background: $neutral-2 !important;
+    margin: 0;
+}
+
+h2 {
+    font-size: $size-48;
+    font-weight: $font-weight-semibold;
+    font-family: $font-default;
+    color: $neutral-90;
+    margin-bottom: $size-24;
+}
+
+h3 {
+    font-size: $size-32;
+    font-weight: $font-weight-regular;
+    font-family: $font-alternate;
+    line-height: 150%;
+}

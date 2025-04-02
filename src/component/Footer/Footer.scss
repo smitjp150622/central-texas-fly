@@ -1,0 +1,38 @@
+.footer-wrapper {
+    background: $neutral-90;
+    padding-block: $size-24;
+
+    &_link {
+        display: flex !important;
+        align-items: center;
+        gap: $size-24;
+
+        .footer-link {
+            ul {
+                display: flex;
+                color: $neutral-5;
+                gap: $size-24;
+            }
+
+        }
+    }
+
+    &_social {
+        display: flex;
+        gap: $size-8;
+
+        a {
+            padding: $size-8;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .footer-copyright {
+        color: $neutral-30;
+        font-size: $size-12;
+        font-weight: $font-weight-regular;
+        text-align: center;
+        margin-top: 36px;
+    }
+}
