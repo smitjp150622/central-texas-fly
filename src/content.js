@@ -67,6 +67,7 @@ export const featuredData = [
     content:
       "Proin nibh nisl condimentum id venenatis a condimentum vitae sapien. Tellus in metus vulputate eu sc",
     img: featuresImg1,
+    defaultOpen: true,
   },
   {
     id: 2,
@@ -81,5 +82,24 @@ export const featuredData = [
     content:
       "In metus vulputate eu scelerisque felis imperdiet. Nunc scelerisque viverra mauris in aliquam sem. S",
     img: featuresImg3,
+  },
+];
+
+export const mainNav = [
+  {
+    name: "Home",
+    url: "/",
+  },
+  {
+    name: "About us",
+    url: "/about",
+  },
+  {
+    name: "Services",
+    url: "/services",
+  },
+  {
+    name: "Contact",
+    url: "/contact",
   },
 ];

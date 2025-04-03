@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Accordion.scss";
 import accordionIcon from "../../assets/images/accorordion-arrow.svg";
 import LightButton from "../LightButton/LightButton";
 
 const Accordion = (props) => {
+  useEffect(() => {
+    if (props.defaultOpen) {
+      setOpenIndex(props.id);
+    }
+  }, [props.id, props.defaultOpen]);
   const [openIndex, setOpenIndex] = useState(null);
 
   const toggleAccordion = (index) => {
@@ -19,7 +24,9 @@ const Accordion = (props) => {
         <img
           src={accordionIcon}
           alt="Accordion Icon"
-          className="accordion-icon"
+          className={`accordion-icon transition-transform duration-300 ${
+            openIndex === props.id ? "rotate-0" : "rotate-180"
+          }`}
         />
       </div>
       {openIndex === props.id && (

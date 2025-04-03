@@ -1,4 +1,11 @@
 .featured-options {
     background: $tan-lighter;
-    padding-block: $size-80;
+}
+
+@media screen and (max-width:768px) {
+    .feature-card {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: $size-24;
+    }
 }

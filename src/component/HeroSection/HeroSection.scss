@@ -1,5 +1,3 @@
-// @use "./variables" as *;
-
 .hero-section {
     background: $neutral-2;
     padding-block: $size-80;
@@ -36,4 +34,34 @@
             object-fit: cover;
         }
     }
+}
+
+@media screen and (max-width:768px) {
+    .hero-section {
+        padding-top: 0;
+        padding-bottom: $size-40;
+
+        &_flex {
+            display: flex;
+            flex-wrap: wrap;
+            gap: $size-40;
+        }
+
+        &_image {
+            order: 1;
+            height: 550px;
+            margin-inline: -$size-24;
+        }
+
+        &_title {
+            order: 12;
+            padding-block: 0;
+
+            h1 {
+                font-size: $size-40;
+                line-height: 112%;
+            }
+        }
+    }
+
 }

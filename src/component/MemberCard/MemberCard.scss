@@ -13,3 +13,35 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .member-stories-card {
+        border-top: $size-1 solid $neutral-20;
+        padding-block: $size-32;
+
+        &:last-of-type {
+            border-bottom: $size-1 solid $neutral-20;
+
+        }
+
+        h3 {
+            margin-bottom: $size-4;
+        }
+
+        button {
+            margin-top: $size-16;
+        }
+    }
+
+    .member-stories_card {
+        grid-template-columns: 100px auto;
+        gap: $size-16;
+
+        &-title {
+            p {
+                width: 100%;
+            }
+        }
+
+    }
+}

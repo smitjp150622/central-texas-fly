@@ -1,0 +1,30 @@
+.nav-logo {
+    gap: 12px;
+    align-items: center;
+
+    h3 {
+        color: $brown-default;
+        font-size: $size-20;
+    }
+}
+
+.nav-links {
+    gap: 24px;
+
+    a {
+        font-size: $size-16;
+    }
+}
+
+.active {
+    padding-bottom: $size-2;
+    border-bottom: 2px solid $neutral-90;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-logo {
+        h3 {
+            display: none;
+        }
+    }
+}

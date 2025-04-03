@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className="footer-wrapper">
       <div className="container mx-auto">
-        <div className="flex justify-between">
+        <div className="block sm:flex lg:flex justify-between">
           <div className="footer-wrapper_link">
             <div className="footer-icon">
               <img src={footerIcon} alt="footer icon" />

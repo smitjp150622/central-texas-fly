@@ -3,7 +3,7 @@
     padding-block: $size-24;
 
     &_link {
-        display: flex !important;
+        display: flex;
         align-items: center;
         gap: $size-24;
 
@@ -34,5 +34,38 @@
         font-weight: $font-weight-regular;
         text-align: center;
         margin-top: 36px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer-wrapper {
+
+        &_link {
+            text-align: center;
+            display: block;
+
+            .footer-icon {
+                img {
+                    margin-inline: auto;
+                }
+            }
+
+            .footer-link {
+                margin-top: $size-8;
+
+                ul {
+                    justify-content: center;
+                }
+            }
+        }
+
+        &_social {
+            justify-content: center;
+            margin-top: $size-8;
+        }
+
+        .footer-copyright {
+            margin-top: 36px;
+        }
     }
 }

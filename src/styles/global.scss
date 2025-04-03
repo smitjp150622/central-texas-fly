@@ -20,3 +20,24 @@ h3 {
     font-family: $font-alternate;
     line-height: 150%;
 }
+
+.padding-block {
+    padding-block: $size-80;
+}
+
+@media screen and (max-width:1024px) {
+    .container {
+        padding-inline: $size-24;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    .padding-block {
+        padding-block: $size-40;
+    }
+
+    h2 {
+        font-size: $size-40;
+    }
+}

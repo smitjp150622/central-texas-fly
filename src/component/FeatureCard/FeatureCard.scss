@@ -1,0 +1,37 @@
+.feature-card-main {
+    position: relative;
+    overflow: hidden;
+
+    img {
+        position: absolute;
+        width: 100%;
+        object-fit: cover;
+        opacity: 25%;
+        height: 100%;
+        filter: grayscale(100%);
+    }
+
+    &-content {
+        padding: $size-24;
+        position: relative;
+        z-index: 1;
+
+        h4 {
+            font-size: $size-32;
+            font-weight: $font-weight-semibold;
+            margin-bottom: $size-8;
+            line-height: 112%;
+        }
+
+        p {
+            font-size: $size-20;
+            color: $neutral-60;
+            line-height: 150%;
+            margin-bottom: $size-8;
+        }
+
+        button {
+            padding: $size-8 $size-12;
+        }
+    }
+}

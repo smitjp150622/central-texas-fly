@@ -6,7 +6,7 @@ import DarkButton from "../DarkButton/DarkButton";
 const HeroSection = () => {
   return (
     <div className="container mx-auto hero-section">
-      <div className="flex hero-section_flex">
+      <div className="hero-section_flex">
         <div className="hero-section_title">
           <h1>Central Texas Fly Fishing</h1>
           <p>

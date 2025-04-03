@@ -1,0 +1,12 @@
+.outline-button {
+    border: $size-1 solid $neutral-40;
+    padding: $size-8 $size-12;
+    border-radius: $size-4;
+    color: $neutral-90;
+    font-size: $size-16;
+    font-family: $font-default;
+
+    &:hover {
+        background: $neutral-10;
+    }
+}

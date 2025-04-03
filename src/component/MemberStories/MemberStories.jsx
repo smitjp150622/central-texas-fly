@@ -6,7 +6,7 @@ import { memberData } from "../../content";
 const MemberStories = () => {
   const stories = memberData;
   return (
-    <div className="member-stories">
+    <div className="member-stories padding-block">
       <div className="container mx-auto member-stories_wrapper">
         <h2>Member stories</h2>
         <div className="member-stories_wrapper-grid">
