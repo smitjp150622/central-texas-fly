@@ -25,6 +25,14 @@ h3 {
     padding-block: $size-80;
 }
 
+.comman-page {
+    height: calc(100vh - 198px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 @media screen and (max-width:1024px) {
     .container {
         padding-inline: $size-24;

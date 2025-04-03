@@ -8,6 +8,11 @@ import About from "./pages/About.jsx";
 import Contact from "./pages/Contact.jsx";
 import Footer from "./component/Footer/Footer.jsx";
 import Navbar from "./component/Nabar/Navbar.jsx";
+import Services from "./pages/Services.jsx";
+import Home from "./pages/Home.jsx";
+import Faq from "./pages/Faq.jsx";
+import Support from "./pages/Support.jsx";
+import Privacy from "./pages/Privacy.jsx";
 
 const Layout = () => {
   return (
@@ -26,15 +31,31 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <App />,
+        element: <Home />,
       },
       {
         path: "/about",
         element: <About />,
       },
       {
+        path: "/services",
+        element: <Services />,
+      },
+      {
         path: "/contact",
         element: <Contact />,
+      },
+      {
+        path: "/faq",
+        element: <Faq />,
+      },
+      {
+        path: "/support",
+        element: <Support />,
+      },
+      {
+        path: "/privacy",
+        element: <Privacy />,
       },
     ],
   },

@@ -1,10 +1,11 @@
 import React from "react";
-const About = () => {
+
+const Support = () => {
   return (
     <div className="container padding-block text-center comman-page">
-      <h3>About Page</h3>
+      <h3>Support Page</h3>
     </div>
   );
 };
 
-export default About;
+export default Support;
